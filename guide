@@ -1,0 +1,55 @@
+1. install fast api on terminam : 
+    pip3 install fastapi
+    pip3 install "uvicorn[standard]"
+
+3.run server
+
+    uvicorn main:app --reload 
+ uvicorn api.main:app --reload 
+
+ uvicorn main:app --reload --host 127.0.0.1 --port 5555
+
+4. server address: 
+http://127.0.0.1:8000/
+
+http://127.0.0.1:8000/items/5?q=somequery
+
+http://127.0.0.1:8000/docs
+
+http://127.0.0.1:8000/redoc
+
+
+
+
+
+
+
+4. install: set up enviroment
+pip3 install pymongo
+pip3 install "pymongo[srv]"
+pip3 install python-dotenv
+
+pip3 install motor
+pip3 install "pydantic[email]"
+
+pip3 install "passlib[bcrypt]"
+
+
+git remote add origin https://github.com/banhcuonbathanh/fastapimongodb.git
+
+
+mongodb
+pythondevhn2023@gmail.com
+
+// refer topic 
+-----------------------
+https://github.com/Coding-Crashkurse/Private-ChatBot/tree/main/app
+chanel 
+https://www.youtube.com/watch?v=O0qs1uRd1K4
+------------------
+https://github.com/BekBrace/FASTAPI-and-JWT-Authentication/blob/main/main.py
+https://www.youtube.com/watch?v=7WE6v2EKm7M
+------------ 
+https://github.com/fazt/farm-stack-crud/blob/master/backend/requirements.txt
+-----------
+https://github.com/charan-sai-v/fastapi-mongodb-crud-operations/blob/master/main.py
